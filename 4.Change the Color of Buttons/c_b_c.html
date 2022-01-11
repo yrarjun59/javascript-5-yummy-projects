@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing the colors of the bottom</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./c_b_c.css">
+</head>
+<body>
+    <div class="container">
+        <h2 id = "change-my-color">Change the Color of All Buttons</h2>
+        <div class="flex-box-pick-color">
+            <form action="">
+                <select name="backdrop" id="Background" onchange="buttonColorChange(this)">
+                    <option value="random">Random</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="reset">Reset</option>
+                </select>
+            </form>
+            <button class="btn btn-primary">Yahh!</button>
+            <button class="btn btn-danger">Facebook</button>
+            <button class="btn btn-warning">Google</button>
+            <button class="btn btn-success">Opera</button>
+            <button class="btn btn-info">Youtube</button>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="./c_b_c.js"></script>
+
+
